@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset = "utf-8">
+  
+ <title>Quarantine Board Games - Customer Order History</title>
+</head>
+<style>
+body { 
+	 background: black;
+	 color: silver;
+}
+
+
+.pic{
+    text-align: center;
+    min-height: 280px;
+}
+
+img {
+	  width: 50%; 
+	  height: 400px;
+	  margin: auto;
+}
+
+h1 { 
+	color: red;
+	text-align: center;
+}
+	
+#menu{
+	border: 1px solid white;
+	text-align: center;
+
+}
+
+table{
+	border: 1px solid white;
+}
+
+td{
+	border: 1px solid white;
+	text-align: center;
+}
+
+th{
+	border: 1px solid white;
+	color: red;
+	font-size: 28px;
+}
+
+h2{
+	color: red;
+}
+
+a {
+	color: silver;
+	text-decoration: underline;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#links{
+	
+}
+
+</style>
+<body>
+ <div id="menu"> <h1>Game Manufacturers</h1> 
+	<p id="links">
+	<a href="homePage.html">Home</a>
+	<a href="inventory.html">Inventory</a> 
+	<a href="customer.html">Customer Registration</a> 
+	<a href="orders.html">Orders</a> 
+    <a href = "orderhistory.html"> Customer History</a>
+	</p>
+ </div>
+ 
+ <br>
+<h2> Search by Item Name or Customer Name</h2>
+
+ <form>
+   <label for="name">Item Name:</label>
+   <input type="text" id="name" name="name"><br><br>
+   <label for="customerName">Customer Name:</label>
+   <input type="text" id="customerName" name="customerName"><br><br>
+   <input type="submit" value="Search">
+</form>
+           
+ <br><br>
+
+<h2> Showing Results for search by Customer Name</h2>
+    
+ <table width=50%>
+  <tr>
+  	<th>Name</th>
+    <th>E-mail</th>
+    <th>Street Address</th>
+    <th>Phone Number</th>
+    <th> Item(s)</th>
+  </tr>
+  <tr>
+  	<td>Jim Gandolfini</td>
+    <td>abc@gmail.com</td>
+    <td>380 Patriot Way</td>
+    <td>555-8082</td>
+    <td>Battleship</td>
+  </tr>
+  <tr>
+  	<td>Tony Sirico</td>
+    <td>def@aol.com/td>
+    <td>721 Washington Ave</td>
+    <td>555-1276</td>
+    <td>Clue</td>
+  </tr>
+</table>
+ 
+ 
+</body>
+</html>
